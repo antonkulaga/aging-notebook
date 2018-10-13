@@ -71,3 +71,8 @@ bin/migrate.sh
 ```
 
 You can check that the data was transferred inside of the adminer by opening http://localhost:5050 and connecting to the database (default login is *postgres*, default password is *changeme*)
+
+Visualizations
+--------------
+
+Not all visualizations used in notebooks are present in the containers, you are encouraged to use Helium packages to install the missing ones
