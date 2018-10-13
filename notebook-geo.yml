@@ -62,7 +62,7 @@ services:
       PGDATA: /data/postgres
     volumes:
     - ./conf/geometa/init/sequencing.sql:/docker-entrypoint-initdb.d/sequencing.sql
-    - /databases/postgres:/data/postgres
+    - ./databases/postgres:/data/postgres
     ports:
     - 5432:5432
   adminer:
